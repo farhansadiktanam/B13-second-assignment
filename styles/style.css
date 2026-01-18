@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Styles */
+body {
+  background: #1a0b2e;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  background: violet;
+  color: #fff;
+}
+
+/* Shared Styles End */
+
+/* Header Styles */
+.header {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.brand {
+  font-size: 2.5rem;
+}
+
+.brand span {
+  color: violet;
+}
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-menu .nav-item {
+  list-style: none;
+}
+
+.nav-menu .nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu .nav-link:hover {
+  color: violet;
+  border-bottom: 2px solid violet;
+  transition: 0.2s ease-out;
+}
+
+/* Header Styles End*/
