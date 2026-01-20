@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/style.css" />
     <title>TechWave</title>
   </head>
@@ -27,6 +28,8 @@
         <button class="btn">
           Subscribe <span><i class="fa-solid fa-arrow-right"></i></span>
         </button>
+
+        <img class="hamburger" src="assets/hamburger-menu.png" alt="" />
       </div>
     </header>
     <!-- Header Section End -->
@@ -34,7 +37,7 @@
     <!-- Banner Section Start-->
     <div class="banner">
       <div class="banner-container">
-        <img src="./assets/hero-circle.png" alt="Circle" />
+        <img class="img-circle" src="./assets/hero-circle.png" alt="Circle" />
         <img class="img" src="./assets/microphone.png" alt="Circle" />
         <button class="new">New</button>
       </div>
@@ -95,8 +98,59 @@
         </div>
       </div>
     </section>
-
     <!-- Podcast Section End -->
+
+    <!-- Why Choose Section Start -->
+    <section class="choose-techwave">
+      <h2 class="techwave">Why Choose TechWave</h2>
+      <div class="choose-techwave-card">
+        <div class="item" style="grid-area: item-1">
+          <img src="./assets/headphone.png" alt="headphone" />
+          <h3>Premium Audio Quality</h3>
+          <p>
+            Experience crystal-clear sound with professional-grade recording
+            equipment and expert audio engineering. Eve ry episode is mastered
+            for optimal listening across all devices and platforms.
+          </p>
+        </div>
+        <div class="item" style="grid-area: item-2">
+          <img src="./assets/device.png" alt="device" />
+          <h3>Mobile Friendly</h3>
+          <p>
+            Listen on the go with seamless mobile experience and offline
+            downloads.
+          </p>
+        </div>
+        <div class="item" style="grid-area: item-3">
+          <img src="./assets/headphone.png" alt="" />
+          <h3>Premium Audio Quality</h3>
+          <p>
+            Experience crystal-clear sound with professional-grade recording
+            equipment and expert audio engineering. Eve ry episode is mastered
+            for optimal listening across all devices and platforms.
+          </p>
+        </div>
+        <div class="item" style="grid-area: item-4">
+          <img src="./assets/headphone.png" alt="" />
+          <h3>Premium Audio Quality</h3>
+          <p>
+            Experience crystal-clear sound with professional-grade recording
+            equipment and expert audio engineering. Eve ry episode is mastered
+            for optimal listening across all devices and platforms.
+          </p>
+        </div>
+        <div class="item" style="grid-area: item-5">
+          <img src="./assets/headphone.png" alt="" />
+          <h3>Premium Audio Quality</h3>
+          <p>
+            Experience crystal-clear sound with professional-grade recording
+            equipment and expert audio engineering. Eve ry episode is mastered
+            for optimal listening across all devices and platforms.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose  Section End -->
 
     <!-- Features Section Start -->
     <section class="features">
@@ -192,7 +246,7 @@
       <div class="featrue-host">
         <h2 class="feautre-host-title">Meet The Host</h2>
         <div class="feature-host-card">
-          <img src="./assets/host.png" alt="Host" />
+          <img src="./assets/host.png" alt="Host" id="host" />
           <div>
             <h3 class="host-name">Alex Kumar</h3>
             <p class="host-description">
